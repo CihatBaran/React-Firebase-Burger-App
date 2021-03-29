@@ -1,0 +1,26 @@
+.CheckoutSummary {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+  .CheckoutSummary {
+    height: 300px;
+  }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+  .CheckoutSummary {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+  .CheckoutSummary {
+    height: auto;
+    width: 700px;
+  }
+}
